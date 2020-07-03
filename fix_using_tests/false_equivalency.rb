@@ -10,11 +10,11 @@ def get_user_input
   gets.chomp
 end
 
-def selection(get_user_input)
-  if get_user_input = 1
+def selection(num)
+  if num = 1
     binding.pry
     "YUM YUM MUNCH MUNCH MUNCH"
-  else get_user_input = 2
+  else num = 2
     binding.pry
     "HAM HAM HAM IN MY TUMMY"
   end
